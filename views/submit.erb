@@ -1,0 +1,32 @@
+<h3>Submit your article!</h3>
+
+<p class="error"><%= @error %></p>
+
+<form action="/articles/new" method="post">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      <div class="medium-6 cell">
+        <label for="title">Title
+          <input type="text" id="main-title" name="title" placeholder="Title">
+        </label>
+      </div>
+      <div class="medium-6 cell">
+        <label for="description">Description
+          <input type="text" id="description" name="description"  placeholder="Description">
+        </label>
+      </div>
+      <div class="medium-6 cell">
+        <label for="url">URL
+          <input type="text"  id="url" name="url" placeholder="URL">
+        </label>
+      </div>
+      <div class="medium-6 cell">
+        <label for="image">Image
+          <input type="text"  id="image" name="image" placeholder="Image">
+        </label>
+      </div>
+    </div>
+  </div>
+  <label for="submit" class="button">Submit</label>
+<input type="submit" id="submit" value="submit" class="show-for-sr">
+</form>

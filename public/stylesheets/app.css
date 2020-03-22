@@ -1,0 +1,52 @@
+#site-title {
+  color: white;
+  text-shadow: -1px 0 #C72833, 0 1px #C72833, 1px 0 #C72833, 0 -1px #C72833;
+}
+
+h3 {
+  text-align: center;
+}
+.head.top-bar,
+.head.top-bar ul {
+  background-color: #151B38;
+}
+
+.link-box {
+  background-color: #C72833;
+  margin: auto 10px;
+  padding: 10px 50px;
+}
+
+.front {
+  color: white;
+}
+
+.headline {
+  margin: 25px;
+}
+.bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ACAFB6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#get_article {
+  margin-left: 45%;
+}
+
+.button {
+  margin-left: 45%;
+}
+
+.error {
+  color: #C72833;
+  text-align: center;
+}
+
+.article-container {
+  padding-bottom: 50px;
+}
